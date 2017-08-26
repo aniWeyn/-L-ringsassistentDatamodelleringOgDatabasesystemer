@@ -11,4 +11,6 @@ Set Apache to listen on a different port:
 3. change the "Listen 80" line to "Listen 8080"
 4. save the file and close it.
 
+** phpMyAdmin page: http://localhost:8080/phpmyadmin/ **
+
 Source: https://stackoverflow.com/a/22357053
