@@ -15,3 +15,10 @@ Set Apache to listen on a different port:
 **phpMyAdmin page: http://localhost:8080/phpmyadmin/**
 
 Source: https://stackoverflow.com/a/22357053
+
+### Installing PHPUnit - Windows
+Denne PCen -> Egenskaper -> Avanserte systeminnstillinger -> Miljøvariabler -> Brukervariabler for DinBrukerNavn -> Ny
+
+Add this two path:
+C:\bin
+C:\xampp\php
