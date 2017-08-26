@@ -1,1 +1,1 @@
-# -L-ringsassistentDatamodelleringOgDatabasesystemer
+# DatamodelleringOgDatabasesystemer
