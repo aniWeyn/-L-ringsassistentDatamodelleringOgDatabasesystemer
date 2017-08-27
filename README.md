@@ -4,7 +4,7 @@
 ## Part I
 ### XAMPP Installation problems
 #### XAMPP - Port 80 in use by “Unable to open process” with PID 4!
-This solution will let you to develop with XAMPP and with Microsoft solutions (such as ISS and MS SQL)
+This solution will let you to develop with XAMPP and with Microsoft solutions (such as IIS and MS SQL)
 
 ##### Solution:
 Set Apache to listen on a different port:
