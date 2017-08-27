@@ -26,4 +26,10 @@ C:\xampp\php
 ```
 
 ### FunctionalTest - Failed asserting that false is true
+If you changed port 80 rember to change 
 
+```sh
+protected $baseUrl = 'http://localhost:8080/IMT2571/assignment1/';
+```
+
+### UnitTests - No such file or directory
