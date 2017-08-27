@@ -39,4 +39,4 @@ check is
 ```sh
 require_once("../src/model/DBModel.php");
 ```
-correct due to your files system you have created
+correct due to files system you have created
