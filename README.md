@@ -33,3 +33,10 @@ protected $baseUrl = 'http://localhost:8080/IMT2571/assignment1/';
 ```
 
 ### UnitTests - No such file or directory
+go to UnitTests.php 
+check is
+
+```sh
+require_once("../src/model/DBModel.php");
+```
+correct due to your files system you have created
