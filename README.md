@@ -20,5 +20,10 @@ Source: https://stackoverflow.com/a/22357053
 Denne PCen -> Egenskaper -> Avanserte systeminnstillinger -> Miljøvariabler -> Brukervariabler for DinBrukerNavn -> Ny
 
 Add this two path:
+```sh
 C:\bin
 C:\xampp\php
+```
+
+### FunctionalTest - Failed asserting that false is true
+
