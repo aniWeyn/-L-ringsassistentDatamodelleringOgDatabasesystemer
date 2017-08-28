@@ -43,3 +43,6 @@ check is
 require_once("../src/model/DBModel.php");
 ```
 correct due to files system you have created
+
+### UnitTests - not executing tests and no error is displayed
+
