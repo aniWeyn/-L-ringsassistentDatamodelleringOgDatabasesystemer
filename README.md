@@ -69,3 +69,19 @@ correct due to files system you have created
 
 ### Great tutorials for start with PDO
 https://youtu.be/vqqUGNdRow8
+
+### Catching errors from $db->query('SELECT * FROM book');
+ ```   
+    $q = $db->query('SELECT * FROM book');
+    
+    //error case
+    if(!$q)
+    {
+      die("Execute query error, because: ". print_r($db->errorInfo(),true) );
+    }
+    //success case
+    else{
+         //continue flow
+    }
+```
+
