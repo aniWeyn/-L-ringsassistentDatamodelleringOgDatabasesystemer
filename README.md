@@ -65,4 +65,7 @@ require_once("../src/model/DBModel.php");
 correct due to files system you have created
 
 ### UnitTests - not executing tests and no error is displayed
+??? - not answered now
 
+###Great tutorials for start with PDO
+https://youtu.be/vqqUGNdRow8
