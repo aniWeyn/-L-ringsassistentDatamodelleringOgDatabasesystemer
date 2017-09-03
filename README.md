@@ -21,6 +21,22 @@ Set Apache to listen on a different port:
 
 Source: https://stackoverflow.com/a/22357053
 
+#### MySQL - Port 3306 in use by "Unable to open process"!
+##### Solution:
+Set Apache to listen on a different port:
+1. click on the "Config" button on the same line as the "MySQL" module
+2. select the "my.ini" file in the dropdown 
+3. change the port = 3307 
+4. save the file and close it.
+
+5. you might alse need to change the port in Config from right menu
+6. Click Service and Port Settings
+7. Change port for MySQL to 3307
+
+**remember to add port to connection string**
+
+**$db = new PDO('mysql:host=localhost;port:8080;dbname=test', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));**
+
 ## Part III
 
 ### Installing PHPUnit - Windows
