@@ -35,7 +35,7 @@ Set Apache to listen on a different port:
 
 **remember to add port to connection string**
 
-**$db = new PDO('mysql:host=localhost;port:8080;dbname=test', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));**
+**$db = new PDO('mysql:host=localhost;dbname=test;port:8080', 'root', '');**
 
 ## Part III
 
